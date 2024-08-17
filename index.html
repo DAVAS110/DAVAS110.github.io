@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Portafolio Web</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="src/index.css" />
+
+    <!-- Custom Font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Droid+Sans+Mono"
+      defer
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6c2a0ab774.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      defer
+    ></script>
+
+    <!-- Scrollify -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
+      integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- Main JavaScript -->
+    <script src="src/index.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="section__container-home" data-section-name="s-one">
+        <header class="header__container">
+          <div class="menu__header">
+            <div class="menu__title">
+              <a href="#"><span>Portafolio Website</span></a>
+            </div>
+            <nav class="menu__nav">
+              <ul id="links">
+                <li>
+                  <a href="#"><span>Home</span></a>
+                </li>
+                <li>
+                  <a href="#aboutMe"><span>About me</span></a>
+                </li>
+                <li>
+                  <a href="#projects"><span>Projects</span></a>
+                </li>
+                <!-- <li>
+                  <a href="#contact"><span>Contact</span></a>
+                </li> -->
+              </ul>
+            </nav>
+            <div class="menu__social">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/david-vargas-aa84291ab/2"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/davdstfu/" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/DAVAS110" target="_blank"
+                    ><i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="icon-menu">
+            <i class="fa-solid fa-bars" id="bars-open"></i>
+            <i class="fa-solid fa-xmark" id="bars-close"></i>
+          </div>
+        </header>
+        <div class="cover__container">
+          <div class="front__header">
+            <div class="front__title">
+              <h1>David Vargas Arias</h1>
+              <h2>Web Developer and Industrial Electronics</h2>
+              <a
+                href="./src/assets/CV/CVDavidVargas(English).pdf"
+                download="CVDavidVargas(English).pdf"
+              >
+                <button>Download CV<i class="fa-solid fa-download"></i></button>
+              </a>
+            </div>
+            <div class="front__card">
+              <img src="./src/assets/Astronaut.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section__container-aboutMe scroll"
+        id="aboutMe"
+        data-section-name="s-two"
+      >
+        <div class="about__section">
+          <div class="container__about">
+            <div class="main__about">
+              <img class="about__img" src="src/assets/AboutMe.png" alt="" />
+              <div class="about__content">
+                <h1 class="about__title">David Vargas Arias</h1>
+                <p>⚛️ React Frontend dev, Backend on Express (MERN Stack)</p>
+                <p>
+                  🕹️ Self Taught Programmer and Industrial Electronics Student
+                </p>
+                <h3>TECHNOLOGIES</h3>
+                <div class="about__tech">
+                  <div class="tech__img">
+                    <i class="fa-brands fa-html5"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-css3-alt"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-square-js"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-react"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-python"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-git-alt"></i>
+                  </div>
+                  <div class="tech__img">
+                    <i class="fa-brands fa-node-js"></i>
+                  </div>
+                  <div class="tech__img">
+                    <img src="./src//assets/MongoDB.svg" alt="" />
+                  </div>
+                  <div class="tech__img">
+                    <img src="./src//assets/express.svg" alt="" />
+                  </div>
+                  <div class="tech__img">
+                    <img src="./src//assets/tailwindcss.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="who__about">
+              <h1>Who am I?</h1>
+              <p>
+                Passionate about learning, technology, and the world of software
+                development. I develop applications (web or mobile) as a
+                front-end developer. I'm a student of electronics and work on
+                IoT projects. I always enjoy working on new projects and
+                learning new technologies to improve my skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section__container-projects scroll"
+        id="projects"
+        data-section-name="s-three"
+      >
+        <div class="container-projects">
+          <h1>My Recent <span>Work</span></h1>
+          <div class="container-cards">
+            <a href="https://github.com/DAVAS110/Enova" target="_blank">
+              <div class="card">
+                <img class="img" src="src/assets/Enova.PNG" alt="" />
+                <div class="text-box">
+                  <p class="text title">Enova</p>
+                  <p class="text descrip">
+                    Mobile App focus on recycling detection for classification
+                    recycling materials
+                  </p>
+                  <span class="icons">
+                    <span>React Native</span>
+                    <span>API</span>
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/DAVAS110/Nexus" target="_blank">
+              <div class="card">
+                <img class="img" src="src/assets/Nexus.png" alt="" />
+                <div class="text-box">
+                  <p class="text title">Nexus Racing</p>
+                  <p class="text descrip">
+                    Website for F1 in School Competition Costa Rica
+                  </p>
+                  <span class="icons">
+                    <span>React</span>
+                    <span>TailwindCss</span>
+                    <span>ThreeJS</span>
+                    <span>Vercel</span>
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/DAVAS110/AquaSync" target="_blank">
+              <div class="card">
+                <img class="img" src="src/assets/AquaSync.png" alt="" />
+                <div class="text-box">
+                  <p class="text title">Aqua Sync</p>
+                  <p class="text descrip">
+                    National Eaton Competition Web site to controll and monitor
+                    PLC status
+                  </p>
+                  <span class="icons">
+                    <span>React</span>
+                    <span>Tailwindcss</span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- <section
+        class="section__container-contact scroll"
+        id="contact"
+        data-section-name="s-four"
+      >
+        <div class="img-container">
+          <h1>Got a project in <span>mind?</span></h1>
+          <img src="src/assets/form-img.png" alt="" />
+        </div>
+        <div class="form-container">
+          <form
+            method="POST"
+            action="https://formsubmit.co/24bac8979d2c41080b9f4b8d9ffc7f56"
+            class="form"
+          >
+            <div class="name-group">
+              <label class="name-label">Your Name</label>
+              <input
+                class="name-input"
+                type="name"
+                name="subject"
+                autocomplete="off"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="email-group">
+              <label class="email-label">Your Email</label>
+              <input
+                class="email-input"
+                type="email"
+                name="email"
+                autocomplete="off"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="msj-group">
+              <label class="msj-label">Your Message</label>
+              <textarea
+                name="comments"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="button-group">
+              <button class="button">
+                Send message
+                <div class="icon" type="submit">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section> -->
+    </main>
+  </body>
+</html>
